@@ -1,0 +1,37 @@
+#!/usr/bin/python
+
+import json
+
+
+class DNDCharacter:
+    def __init__(self, name, race, class_name, armor_class, Stat):
+        self.name = name
+        self.race = race
+        self.class_name = class_name
+        self.armor_class = armor_class
+        self.stats = Stat
+
+
+class Stat:
+    def __init__(
+        self, charisma, constitution, dexterity, intelligence, strength, wisdom
+    ):
+        self.charisma = charisma
+        self.constitution = constitution
+        self.dexterity = dexterity
+        self.intelligence = intelligence
+        self.strength = strength
+        self.wisdom = wisdom
+
+
+you = DNDCharacter("HARK", "Half-Orc", "Monk", 13, Stat(12, 12, 12, 12, 12, 12))
+
+print(you)
+print(you.name)
+print(you.stats.strength)
+print(json.dumps(you))
+
+file = open("ddd.json", "r")
+# content = json.load(file)
+# file.close()
+# print("Your character's name is %d" % content["stats"]["strength"])

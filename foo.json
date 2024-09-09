@@ -1,0 +1,33 @@
+{
+    "name": "HARK",
+    "race": "Guman",
+    "class_name": "Monk",
+    "armor_class": 13,
+    "proficiencies": [
+        "Common",
+        "Short Swords",
+        "Daggers",
+        "Orcish",
+        "Tuba"
+    ],
+    "skills": [
+        "Unarmored Strike",
+        "Flurry of Blows",
+        "Dash",
+        "High Jump",
+        "Iron Fist"
+    ],
+    "stats": {
+        "charisma": 12,
+        "constitution": 16,
+        "dexterity": 16,
+        "intellect": 12,
+        "strength": 12,
+        "wisdom": 14
+    },
+    "health": {
+        "base": 11,
+        "current": 10,
+        "temp": 5
+    }
+}
