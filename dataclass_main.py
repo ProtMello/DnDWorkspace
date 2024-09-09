@@ -88,7 +88,7 @@ x = """
 }
 """
 
-#d = json.load(open("ddd.json", "r"))
+# d = json.load(open("ddd.json", "r"))
 d["race"] = "Gumann"
 d["skills"].append("Irony Fist")
 d["stats"]["strength"] = 20
